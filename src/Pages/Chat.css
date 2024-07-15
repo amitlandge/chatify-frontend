@@ -1,0 +1,8 @@
+.chat-container {
+  background-image: linear-gradient(
+      20deg,
+      rgba(90, 87, 87, 0.6),
+      rgba(62, 64, 65, 0.8)
+    ),
+    url("../assets//chat.jpg");
+}

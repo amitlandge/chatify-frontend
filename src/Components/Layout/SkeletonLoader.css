@@ -1,0 +1,28 @@
+.chat-skeleton-loader {
+  width: 100%;
+  max-width: 80%; /* adjust width as needed */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.chat-skeleton-loader__header {
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.chat-skeleton-loader__messages {
+  width: 100%;
+}
+
+.chat-skeleton-loader__message {
+  width: 100%;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
