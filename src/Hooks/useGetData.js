@@ -4,6 +4,7 @@ import { server } from "../utils/config";
 import toast from "react-hot-toast";
 
 const useGetData = (url) => {
+  console.log(server, url);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(null);
   const getInitialData = async () => {
